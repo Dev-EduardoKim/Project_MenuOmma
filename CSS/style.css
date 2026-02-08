@@ -165,15 +165,21 @@ header{
 }
 .spicy{ color: #b02a1c; border-color:#b02a1c33; }
 
-.type-list{
-    display:flex;
+.types-list{
+    display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
     gap: 6px;
     margin-top: 10px;
-    list-style-type: none;
+    justify-content: center;
 }
 
+.types-list .badge{
+    max-width: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+}
 
 footer{
     margin-top: 28px;
